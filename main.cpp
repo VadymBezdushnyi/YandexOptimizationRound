@@ -1071,8 +1071,8 @@ void runTests(int num_tests, const std::string &folder_name) {
 int main() {
     std::cin.sync_with_stdio(false);
     std::cin.tie(nullptr);
-    std::ifstream fin("input.txt");
-    std::ofstream fout("output.txt");
+    std::ifstream fin("manual-tests/input.txt");
+    std::ofstream fout("manual-tests/output.txt");
     GLobalScope::generate_best_move_points();
 
 #ifndef LOCAL
